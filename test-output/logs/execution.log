@@ -1,9 +1,133 @@
-19-11-15 12:43 DEBUG [testLinks] ********************************************************************************************* 
-19-11-15 12:43 DEBUG [testLinks] ******Base URL http://www.google.com 
-19-11-15 12:43 DEBUG [testLinks] ******Links Found: 40 
-19-11-15 12:43 DEBUG [testLinks] ******Page Load timeout is 5 
-19-11-15 12:43 DEBUG [testLinks] ******Begin Test: 
-19-11-15 12:44 DEBUG [testLinks] Google+? : https://plus.google.com/?gpsrc=ogpy0&tab=wX ==> Page Load Success 
-19-11-15 12:44 DEBUG [testLinks] ????? : https://www.google.co.il/webhp?tab=ww ==> Page Load Success 
-19-11-15 12:44 DEBUG [testLinks] ?????? : https://www.google.co.il/imghp?hl=iw&tab=wi ==> Page Load Success 
-19-11-15 12:44 DEBUG [testLinks] ???? : https://maps.google.co.il/maps?hl=iw&tab=wl ==> Page Load Success 
+29-11-15 13:02 DEBUG [testLinks] ********************************************************************************************* 
+29-11-15 13:02 DEBUG [testLinks] ******Base URL http://www.google.com 
+29-11-15 13:02 DEBUG [testLinks] ******Links Found: 38 
+29-11-15 13:02 DEBUG [testLinks] ******Page Load timeout is 5 
+29-11-15 13:02 DEBUG [testLinks] ******Begin Test: 
+29-11-15 13:02 DEBUG [testLinks] Google+? : https://plus.google.com/?gpsrc=ogpy0&tab=wX ==> Page Load Success 
+29-11-15 13:02 WARN  [testLinks] ????? : https://www.google.co.il/webhp?tab=ww ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-02-53 MSK.png 
+29-11-15 13:03 WARN  [testLinks] ?????? : https://www.google.co.il/imghp?hl=iw&tab=wi ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-03-04 MSK.png 
+29-11-15 13:03 WARN  [testLinks] ???? : https://www.google.co.il/maps?hl=iw&tab=wl ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-03-18 MSK.png 
+29-11-15 13:03 DEBUG [testLinks] YouTube : https://www.youtube.com/?gl=IL&tab=w1 ==> Page Load Success 
+29-11-15 13:03 DEBUG [testLinks] ????? : https://news.google.co.il/nwshp?hl=iw&tab=wn ==> Page Load Success 
+29-11-15 13:04 WARN  [testLinks] Gmail : https://mail.google.com/mail/?tab=wm ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-04-00 MSK.png 
+29-11-15 13:04 DEBUG [testLinks] Drive : https://drive.google.com/?tab=wo ==> Page Load Success 
+29-11-15 13:04 WARN  [testLinks] ??? : https://www.google.co.il/intl/iw/options/ ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-04-20 MSK.png 
+29-11-15 13:04 DEBUG [testLinks] ???? : https://www.google.com/calendar?tab=wc ==> Page Load Success 
+29-11-15 13:04 WARN  [testLinks] ???? : https://translate.google.co.il/?hl=iw&tab=wT ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-04-40 MSK.png 
+29-11-15 13:04 DEBUG [testLinks] Blogger : https://www.blogger.com/?tab=wj ==> Page Load Success 
+29-11-15 13:07 WARN  [testLinks] ??????? : https://photos.google.com/?tab=wq ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-07-13 MSK.png 
+29-11-15 13:07 DEBUG [testLinks] Google Docs : https://docs.google.com/document/?usp=docs_alc ==> Page Load Success 
+29-11-15 13:07 WARN  [testLinks] ???? ???? » : https://www.google.co.il/intl/iw/options/ ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-07-32 MSK.png 
+29-11-15 13:07 DEBUG [testLinks] ????? : https://accounts.google.com/ServiceLogin?hl=iw&passive=true&continue=https://www.google.co.il/%3Fgfe_rd%3Dcr%26ei%3DOs1aVoqGD6GH8QeikZugDQ%26gws_rd%3Dssl ==> Page Load Success 
+29-11-15 13:07 WARN  [testLinks]  : http://www.google.co.il/preferences?hl=iw ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-07-49 MSK.png 
+29-11-15 13:07 DEBUG [testLinks] ?????? ????? : http://www.google.com//preferences?hl=iw ==> Page Load Success 
+29-11-15 13:08 WARN  [testLinks] ????? ????? : http://www.google.com//advanced_search?hl=iw ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-08-00 MSK.png 
+29-11-15 13:08 WARN  [testLinks] ??? ??? : http://www.google.com//language_tools?hl=iw ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-08-17 MSK.png 
+29-11-15 13:08 DEBUG [testLinks] ????????? ????? : http://www.google.co.il/history/optout?hl=iw ==> Page Load Success 
+29-11-15 13:08 DEBUG [testLinks] /images/nav_logo242.png : https://www.google.co.il/webhp?hl=iw ==> Page Load Success 
+29-11-15 13:08 ERROR [testLinks] //www.gstatic.com/inputtools/images/tia.png : http://www.google.com/javascript:void(0) ==> Broken Link ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-08-29 MSK.png 
+29-11-15 13:08 ERROR [testLinks] ????? ???? : http://www.google.com///support.google.com/websearch/answer/186645?hl=iw ==> Broken Link ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-08-31 MSK.png 
+29-11-15 13:08 DEBUG [testLinks] ??????? : https://www.google.co.il/setprefs?sig=0_Um7X2lY8pPvJXAzVxQb0W7T9SeQ%3D&hl=ar&source=homepage ==> Page Load Success 
+29-11-15 13:08 DEBUG [testLinks] English : https://www.google.co.il/setprefs?sig=0_Um7X2lY8pPvJXAzVxQb0W7T9SeQ%3D&hl=en&source=homepage ==> Page Load Success 
+29-11-15 13:08 ERROR [testLinks] ?????? : http://www.google.com///www.google.co.il/intl/iw/policies/privacy/?fg=1 ==> Broken Link ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-08-43 MSK.png 
+29-11-15 13:08 ERROR [testLinks] ????? : http://www.google.com///www.google.co.il/intl/iw/policies/terms/?fg=1 ==> Broken Link ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-08-44 MSK.png 
+29-11-15 13:08 DEBUG [testLinks] ?????? : https://www.google.co.il/preferences?hl=iw ==> Page Load Success 
+29-11-15 13:09 WARN  [testLinks] ?????? ????? : https://www.google.co.il/preferences?hl=iw&fg=1 ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-09-01 MSK.png 
+29-11-15 13:09 DEBUG [testLinks] ????? ????? : http://www.google.com//advanced_search?hl=iw&fg=1 ==> Page Load Success 
+29-11-15 13:09 WARN  [testLinks] ???????? : http://www.google.com//history/optout?hl=iw&fg=1 ==> Page Load Error ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-09-12 MSK.png 
+29-11-15 13:09 ERROR [testLinks] ??? ????? ????? : http://www.google.com///support.google.com/websearch/?p=ws_results_help&hl=iw&fg=1 ==> Broken Link ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-09-19 MSK.png 
+29-11-15 13:09 ERROR [testLinks] ??? ???? : http://www.google.com/javascript:void(0) ==> Broken Link ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-09-20 MSK.png 
+29-11-15 13:09 DEBUG [testLinks] ????? ?-Google.com : https://www.google.com/?gfe_rd=cr&ei=Os1aVoqGD6GH8QeikZugDQ&gws_rd=ssl,cr&fg=1 ==> Page Load Success 
+29-11-15 13:09 ERROR [testLinks] ????? : http://www.google.com///www.google.co.il/intl/iw/ads/?fg=1 ==> Broken Link ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-09-24 MSK.png 
+29-11-15 13:09 ERROR [testLinks] ????? : http://www.google.com///www.google.co.il/services/?fg=1 ==> Broken Link ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-09-25 MSK.png 
+29-11-15 13:09 ERROR [testLinks] ???? ???? : http://www.google.com///www.google.co.il/intl/iw/about.html?fg=1 ==> Broken Link ==> Link to screenshot: C:\Users\Shirk\Desktop\Selenium\workspace\TestLinksUtil\test-output\screenshots//Links_Test_2015.11.29 13-09-26 MSK.png 
+29-11-15 13:09 DEBUG [testLinks] *************End Of TestLinks on: http://www.google.com*************** 
+29-11-15 13:09 DEBUG [testLinks] ********************************************************************************************* 
+29-11-15 13:09 DEBUG [testLinks] ********************************LINKS LIST****************************************** 
+29-11-15 13:09 DEBUG [testLinks]                      URL:http://www.google.com pageLoadTimeout: 5 
+29-11-15 13:09 DEBUG [testLinks] ***** Google+? ***** https://plus.google.com/?gpsrc=ogpy0&tab=wX ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** https://www.google.co.il/webhp?tab=ww ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ***** https://www.google.co.il/imghp?hl=iw&tab=wi ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ***** https://www.google.co.il/maps?hl=iw&tab=wl ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** YouTube ***** https://www.youtube.com/?gl=IL&tab=w1 ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** https://news.google.co.il/nwshp?hl=iw&tab=wn ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** Gmail ***** https://mail.google.com/mail/?tab=wm ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** Drive ***** https://drive.google.com/?tab=wo ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ??? ***** https://www.google.co.il/intl/iw/options/ ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ***** https://www.google.com/calendar?tab=wc ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ***** https://translate.google.co.il/?hl=iw&tab=wT ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** Blogger ***** https://www.blogger.com/?tab=wj ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ??????? ***** https://photos.google.com/?tab=wq ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** Google Docs ***** https://docs.google.com/document/?usp=docs_alc ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ???? » ***** https://www.google.co.il/intl/iw/options/ ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** https://accounts.google.com/ServiceLogin?hl=iw&passive=true&continue=https://www.google.co.il/%3Fgfe_rd%3Dcr%26ei%3DOs1aVoqGD6GH8QeikZugDQ%26gws_rd%3Dssl ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] *****  ***** http://www.google.co.il/preferences?hl=iw ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ????? ***** http://www.google.com//preferences?hl=iw ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ????? ***** http://www.google.com//advanced_search?hl=iw ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ??? ??? ***** http://www.google.com//language_tools?hl=iw ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ????????? ????? ***** http://www.google.co.il/history/optout?hl=iw ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** /images/nav_logo242.png ***** https://www.google.co.il/webhp?hl=iw ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** //www.gstatic.com/inputtools/images/tia.png ***** http://www.google.com/javascript:void(0) ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ???? ***** http://www.google.com///support.google.com/websearch/answer/186645?hl=iw ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ??????? ***** https://www.google.co.il/setprefs?sig=0_Um7X2lY8pPvJXAzVxQb0W7T9SeQ%3D&hl=ar&source=homepage ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** English ***** https://www.google.co.il/setprefs?sig=0_Um7X2lY8pPvJXAzVxQb0W7T9SeQ%3D&hl=en&source=homepage ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ***** http://www.google.com///www.google.co.il/intl/iw/policies/privacy/?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** http://www.google.com///www.google.co.il/intl/iw/policies/terms/?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ***** https://www.google.co.il/preferences?hl=iw ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ????? ***** https://www.google.co.il/preferences?hl=iw&fg=1 ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ????? ***** http://www.google.com//advanced_search?hl=iw&fg=1 ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ???????? ***** http://www.google.com//history/optout?hl=iw&fg=1 ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ??? ????? ????? ***** http://www.google.com///support.google.com/websearch/?p=ws_results_help&hl=iw&fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ??? ???? ***** http://www.google.com/javascript:void(0) ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ?-Google.com ***** https://www.google.com/?gfe_rd=cr&ei=Os1aVoqGD6GH8QeikZugDQ&gws_rd=ssl,cr&fg=1 ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** http://www.google.com///www.google.co.il/intl/iw/ads/?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** http://www.google.com///www.google.co.il/services/?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ???? ***** http://www.google.com///www.google.co.il/intl/iw/about.html?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ************************************************************************************ 
+29-11-15 13:09 DEBUG [testLinks] ********************************LINKS LIST****************************************** 
+29-11-15 13:09 DEBUG [testLinks]                      URL:http://www.google.com pageLoadTimeout: 5 
+29-11-15 13:09 DEBUG [testLinks] ***** //www.gstatic.com/inputtools/images/tia.png ***** http://www.google.com/javascript:void(0) ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ???? ***** http://www.google.com///support.google.com/websearch/answer/186645?hl=iw ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ***** http://www.google.com///www.google.co.il/intl/iw/policies/privacy/?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** http://www.google.com///www.google.co.il/intl/iw/policies/terms/?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ??? ????? ????? ***** http://www.google.com///support.google.com/websearch/?p=ws_results_help&hl=iw&fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ??? ???? ***** http://www.google.com/javascript:void(0) ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** http://www.google.com///www.google.co.il/intl/iw/ads/?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** http://www.google.com///www.google.co.il/services/?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ???? ***** http://www.google.com///www.google.co.il/intl/iw/about.html?fg=1 ; Broken Link 
+29-11-15 13:09 DEBUG [testLinks] ************************************************************************************ 
+29-11-15 13:09 DEBUG [testLinks] ********************************LINKS LIST****************************************** 
+29-11-15 13:09 DEBUG [testLinks]                      URL:http://www.google.com pageLoadTimeout: 5 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** https://www.google.co.il/webhp?tab=ww ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ***** https://www.google.co.il/imghp?hl=iw&tab=wi ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ***** https://www.google.co.il/maps?hl=iw&tab=wl ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** Gmail ***** https://mail.google.com/mail/?tab=wm ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ??? ***** https://www.google.co.il/intl/iw/options/ ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ***** https://translate.google.co.il/?hl=iw&tab=wT ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ??????? ***** https://photos.google.com/?tab=wq ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ???? » ***** https://www.google.co.il/intl/iw/options/ ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] *****  ***** http://www.google.co.il/preferences?hl=iw ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ????? ***** http://www.google.com//advanced_search?hl=iw ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ??? ??? ***** http://www.google.com//language_tools?hl=iw ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ????? ***** https://www.google.co.il/preferences?hl=iw&fg=1 ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ***** ???????? ***** http://www.google.com//history/optout?hl=iw&fg=1 ; Page Load Error 
+29-11-15 13:09 DEBUG [testLinks] ************************************************************************************ 
+29-11-15 13:09 DEBUG [testLinks] ********************************LINKS LIST****************************************** 
+29-11-15 13:09 DEBUG [testLinks]                      URL:http://www.google.com pageLoadTimeout: 5 
+29-11-15 13:09 DEBUG [testLinks] ***** Google+? ***** https://plus.google.com/?gpsrc=ogpy0&tab=wX ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** YouTube ***** https://www.youtube.com/?gl=IL&tab=w1 ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** https://news.google.co.il/nwshp?hl=iw&tab=wn ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** Drive ***** https://drive.google.com/?tab=wo ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ???? ***** https://www.google.com/calendar?tab=wc ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** Blogger ***** https://www.blogger.com/?tab=wj ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** Google Docs ***** https://docs.google.com/document/?usp=docs_alc ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ***** https://accounts.google.com/ServiceLogin?hl=iw&passive=true&continue=https://www.google.co.il/%3Fgfe_rd%3Dcr%26ei%3DOs1aVoqGD6GH8QeikZugDQ%26gws_rd%3Dssl ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ????? ***** http://www.google.com//preferences?hl=iw ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ????????? ????? ***** http://www.google.co.il/history/optout?hl=iw ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** /images/nav_logo242.png ***** https://www.google.co.il/webhp?hl=iw ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ??????? ***** https://www.google.co.il/setprefs?sig=0_Um7X2lY8pPvJXAzVxQb0W7T9SeQ%3D&hl=ar&source=homepage ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** English ***** https://www.google.co.il/setprefs?sig=0_Um7X2lY8pPvJXAzVxQb0W7T9SeQ%3D&hl=en&source=homepage ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ?????? ***** https://www.google.co.il/preferences?hl=iw ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ????? ***** http://www.google.com//advanced_search?hl=iw&fg=1 ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ***** ????? ?-Google.com ***** https://www.google.com/?gfe_rd=cr&ei=Os1aVoqGD6GH8QeikZugDQ&gws_rd=ssl,cr&fg=1 ; Page Load Success 
+29-11-15 13:09 DEBUG [testLinks] ************************************************************************************ 

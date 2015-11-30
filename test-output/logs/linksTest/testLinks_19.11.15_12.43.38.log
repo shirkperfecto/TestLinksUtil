@@ -1,9 +1,0 @@
-19-11-15 12:43 DEBUG [testLinks] ********************************************************************************************* 
-19-11-15 12:43 DEBUG [testLinks] ******Base URL http://www.google.com 
-19-11-15 12:43 DEBUG [testLinks] ******Links Found: 40 
-19-11-15 12:43 DEBUG [testLinks] ******Page Load timeout is 5 
-19-11-15 12:43 DEBUG [testLinks] ******Begin Test: 
-19-11-15 12:44 DEBUG [testLinks] Google+? : https://plus.google.com/?gpsrc=ogpy0&tab=wX ==> Page Load Success 
-19-11-15 12:44 DEBUG [testLinks] ????? : https://www.google.co.il/webhp?tab=ww ==> Page Load Success 
-19-11-15 12:44 DEBUG [testLinks] ?????? : https://www.google.co.il/imghp?hl=iw&tab=wi ==> Page Load Success 
-19-11-15 12:44 DEBUG [testLinks] ???? : https://maps.google.co.il/maps?hl=iw&tab=wl ==> Page Load Success 

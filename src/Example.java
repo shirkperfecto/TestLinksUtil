@@ -44,9 +44,9 @@ public class Example {
         
 		URL url = new URL("http://localhost:4444/wd/hub");
         //firefox:
-		//capabilities = DesiredCapabilities.firefox();
+		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		//chrome:		
-        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        //DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		RemoteWebDriver driver = new RemoteWebDriver(url, capabilities);
 		
 		
